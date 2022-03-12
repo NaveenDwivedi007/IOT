@@ -6,4 +6,4 @@ echo The command entered was $0.
 echo my name is $1.
 echo -e "my age is $2.\n\t $# argument were passed in".
 
-
+echo -e "\t\t My name is $1 \n\t\t I am $2 year old.\n\t\t  my salary is $3.\n\t\t\t $# argument were passed in."
