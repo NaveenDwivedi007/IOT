@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# access some argument with $ sign
+
+echo The command entered was $0.
+echo my name is $1.
+echo -e "my age is $2.\n\t $# argument were passed in".
+
+
