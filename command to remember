@@ -1,0 +1,16 @@
+nano <file name> will create file.
+
+interpiter mention to the top of file for bash use the following:
+#!/bin/bash
+
+use command "ls -l" to see permission of file which give the rwx for read write and execute where we can see the 3 section 1st for
+user 2nd for network group and 3rd is for everyone
+
+to change permission for file use the following command :
+chmod u+x <file name>
+
+chmod = change mode 
+u for user 
++ to add permission 
+x if for execute permission
+ 
