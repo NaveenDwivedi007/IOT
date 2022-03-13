@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Decision making program
+
+let a=$1
+let b=$2
+let c=a*b
+let d=a-b
+if [ $a -gt $b ]
+then
+  echo $a is greater than $b.
+else
+ echo $b is greater than $a.
+fi
+
+# loop c times
+while [ $d -le 10 ]; do
+ echo Number is $d
+	let d++
+done
+

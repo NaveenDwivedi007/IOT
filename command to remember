@@ -13,4 +13,16 @@ chmod = change mode
 u for user 
 + to add permission 
 x if for execute permission
+
+#######################################################################
+to declare variable use 
+use = to assign value but dont put space between them
+to assign arg to a variable use <$(($1))> like syntax or
+use let a=c+b 
+if statement is space sensitive
+will be done by:
+if [ $a -gt $b ]
+then
+  #Do something
+fi
  
